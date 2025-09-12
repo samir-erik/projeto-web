@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #003366;   /* Azul escuro - cabeçalho e botões */
+    --cor1: #4D4D4D;   /* Cinza médio - Fundo e divisões */
+    --cor2: #F2F2F2;   /* Cinza bem claro Fundo e divisões*/
+    --cor3: #FF9900;   /* Laranja para destaques */
+}   
+/*BODY-CORPO HTML*/
+/*HEADER-CABECALHO*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #003366;
+    height: 80px;
+}
+
+header > h1 {
+    background-color: var(--cor1);
+    padding: 2px;
+    width: 200px;
+    color: white;
+}
+
+.navegacao > a {    
+    padding: 2px;
+    color: #F2F2F2;
+    opacity: 1;
+    transition: color 0.5s ease;
+    margin: 20px;
+    text-decoration: none;
+    
+}
+
+.navegacao > a:hover {
+    background-color: #4D4D4D;
+    color: #FF9900;
+}
+
+/*Div -Logo da empresa*/
+
+#logo {
+    text-align: center; 
+    margin: 10px;
+    padding: 5px;
+}
+
+#logo > img {
+    display: inline-block; 
+    width: 1200px;
+    height: 450px;
+}
+
+#logo > p {
+    color: #161616;
+}
+
+
+/*MAIN-CORPO DOS ASSUNTOS*/
+
+section, article {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#home {
+    text-align: center;
+}
+
+#home > h1 {
+    text-align: center;
+    padding: 10px;
+    text-indent: 10px;
+    margin-top: 40px;
+    
+}
+
+#home > p {
+    text-align: justify;
+    padding: 10px;
+}
+
+/*Parte das imagens / obras*/
+
+#servicos {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.obras-container{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    text-align: center;
+    padding: 5px;
+}
+
+.obras > img {  
+
+    width: 250px;
+    border-radius: 50%;
+}
+
+/*Parte do Resumo de apresentação*/
+
+#sobre {
+    display: flex;
+}
+
+#sobre > img {
+    border-radius: 10px;
+}
+
+.resumo > p {
+    text-align: justify;
+    text-indent: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*FOOTER - rodape*/
+
+footer {
+    position: relative;
+    display: flex;
+    background-color: #003366;
+    padding: 15px;
+    color: #F2F2F2;
+}
+
+.frase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 400px;
+}
+
+footer > p {
+    position: absolute;
+    bottom: 1px;
+    left: 45%;
+    padding : 10px;
+    opacity: 60%;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 90%;
+}
+
+.instagram > a {
+    padding: 2px;
+    color: #F2F2F2;
+    opacity: 1;
+    transition: color 0.5s ease;
+    text-decoration: none;
+}
+
+.instagram > a:hover {
+    background-color: #4D4D4D;
+    color: #FF9900;
+}
