@@ -47,19 +47,19 @@ header > h1 {
 
 /*Div -Logo da empresa*/
 
-#logo {
+.logo {
     text-align: center; 
     margin: 10px;
     padding: 5px;
 }
 
-#logo > img {
+.logo > img {
     display: inline-block; 
     width: 1200px;
     height: 450px;
 }
 
-#logo > p {
+.logo > p {
     color: #161616;
 }
 
@@ -112,6 +112,29 @@ section, article {
     border-radius: 50%;
 }
 
+.orcamento {    
+    color: #F2F2F2;
+    background-color: #003366;
+    padding: 5px;
+    text-align: center;
+    height: 200px;
+}
+
+.Solicite{
+    padding: 20px;
+}
+
+.Solicite > h2 {
+    padding: 10px;
+}
+.Solicite > p{
+    padding: 10px;
+}
+
+.Solicite > button {
+    margin: 20px;
+    padding: 5px;
+}
 /*Parte do Resumo de apresentação*/
 
 #sobre {
