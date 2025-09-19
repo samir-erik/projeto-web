@@ -152,6 +152,21 @@ section, article {
     padding: 10px;
 }
 
+/*Tabble - Tabela*/
+
+#tabela {
+    margin: 0 auto;
+    border: 2px solid #004080; /* cor e espessura da borda */
+    border-collapse: collapse; 
+    border-radius: 10px;
+}
+
+.corpo th, td{
+    border: 1px solid #004080; /* cada célula terá borda */
+    padding: 10px;              /* espaçamento interno */
+    text-align: center;
+}
+
 /*FOOTER - rodape*/
 
 footer {
